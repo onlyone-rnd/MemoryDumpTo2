@@ -1,0 +1,47 @@
+
+#include "resource.h"
+#include "version.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Language
+//
+LANGUAGE LANG_ENGLISH, SUBLANG_NEUTRAL
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+MAIN_ICON ICON DISCARDABLE "main.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// File Version
+//
+VERSION_INFO   VERSIONINFO
+FILEVERSION    FILE_VERSION
+PRODUCTVERSION PRODUCT_VERSION
+FILEOS         VOS_NT_WINDOWS32
+FILETYPE       VFT_DLL
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0" // en-US, Unicode
+    BEGIN
+      VALUE "FileVersion",      FILE_VERSION_STRING
+      VALUE "ProductVersion",   PRODUCT_VERSION_STRING
+      VALUE "CompanyName",      COMPANY_NAME_STRING
+      VALUE "FileDescription",  DESCRIPTION_STRING
+      VALUE "InternalName",     INTERNAL_NAME_STRING
+      VALUE "LegalCopyright",   LEGAL_COPYRIGHT_STRING
+      VALUE "OriginalFilename", ORIGINAL_FILE_NAME_STRING
+      VALUE "ProductName",      PRODUCT_NAME_STRING
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 1200
+  END
+END
+

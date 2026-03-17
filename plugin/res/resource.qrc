@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/png">
+    <file>images\main.png</file>
+    <file>images\about.png</file>
+    <file>images\save.png</file>
+    <file>images\conv.png</file>
+    <file>images\banner.png</file>
+    <file>images\ok.png</file>
+    <file>images\copy.png</file>
+  </qresource>
+  <qresource prefix="/ico">
+    <file>main.ico</file>
+  </qresource>
+</RCC>

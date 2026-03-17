@@ -1,0 +1,31 @@
+#pragma once
+
+#include <windows.h>
+#include "build.h"
+
+#define VERSION_INFO 1
+#define PLUGIN_VERSION         2.0
+#define FILE_VERSION           1, 0, 0, 0
+#define FILE_VERSION_STRING    L"1, 0, 0, 0\0"
+#define PRODUCT_VERSION        2, 0, 0, 0
+#define PRODUCT_VERSION_STRING L"2, 0, 0, 0\0"
+#define PRODUCT_NAME_STRING    L"MemoryDumpTo"
+#define AUTHOR_STRING          L"OnLyOnE"
+#define COPYRIGHT_STRING       L"Dizard Technologies"
+#define COMPANY_NAME_STRING    AUTHOR_STRING L" RnD\0"
+#define INTERNAL_NAME_STRING   L"Plugin\0"
+#define BUILD_YEAR_STRING     L"\x00A9 " BUILD_YEAR_W
+
+#if defined(VERSION_X64)
+#define TARGET_APP_STRING L"x64dbg"
+#define TARGET_PLUGIN_EXTENSION ".dp64"
+#else
+#define TARGET_APP_STRING L"x32dbg"
+#define TARGET_PLUGIN_EXTENSION ".dp32"
+#endif
+
+#define DESCRIPTION_STRING INTERNAL_NAME_STRING L" for " TARGET_APP_STRING
+#define ORIGINAL_FILE_NAME_STRING PRODUCT_NAME_STRING TARGET_PLUGIN_EXTENSION
+
+#define LEGAL_COPYRIGHT_STRING BUILD_YEAR_STRING L" " COPYRIGHT_STRING
+
