@@ -33,6 +33,20 @@ The conversion dialog is also **resizable**, allowing users to adjust the window
 
 ---
 
+## License
+
+This repository is licensed under the **MIT License**.
+See the [LICENSE](LICENSE) file for details.
+
+## Third-Party Components
+
+This project uses **Qt** for the GUI layer.
+Qt is licensed separately under its own licensing terms.
+See [THIRD_PARTY_NOTICES](HIRD_PARTY_NOTICES.md)
+ for third-party attribution and licensing information.
+
+---
+
 ## GUI
 
 **The entire GUI is implemented with Qt.**
