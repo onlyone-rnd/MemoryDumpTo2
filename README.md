@@ -81,7 +81,7 @@ These shortcuts are intended to keep the workflow fast and reduce friction while
 
 ## Demo
 
-<video src="https://github.com/onlyone-rnd/MemoryDumpTo2/blob/main/demo/demo.webm" controls width="100%"></video>
+![](https://github.com/onlyone-rnd/MemoryDumpTo2/blob/main/demo/demo.gif)
 
 ---
 
