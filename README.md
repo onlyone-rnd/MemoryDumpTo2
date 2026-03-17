@@ -81,7 +81,7 @@ These shortcuts are intended to keep the workflow fast and reduce friction while
 
 ## Demo
 
-<video src="demo/demo.webm" controls muted playsinline width="100%"></video>
+[Watch demo](demo/demo.webm)
 
 ---
 
