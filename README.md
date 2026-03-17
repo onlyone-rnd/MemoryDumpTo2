@@ -42,7 +42,7 @@ See the [LICENSE](LICENSE) file for details.
 
 This project uses **Qt** for the GUI layer.
 Qt is licensed separately under its own licensing terms.
-See [THIRD_PARTY_NOTICES](HIRD_PARTY_NOTICES.md)
+See [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES.md)
  for third-party attribution and licensing information.
 
 ---
