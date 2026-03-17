@@ -12,6 +12,12 @@ The conversion dialog is also **resizable**, allowing users to adjust the window
 
 ---
 
+## Status
+
+**MemoryDumpTo** is focused on practical, source-oriented memory export for x64dbg users who need fast results without unnecessary overhead.
+
+---
+
 ## Features
 
 - Save and convert memory dumps into source-ready text representations
