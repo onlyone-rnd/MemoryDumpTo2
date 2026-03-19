@@ -136,6 +136,6 @@ Recommended release assets:
 ### Requirements
 
 - Visual Studio
-- Qt min version 5.12.12 
+- Qt
 - x64dbg plugin SDK
 - Windows SDK
