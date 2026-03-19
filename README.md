@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 **MemoryDumpTo** is a x64dbg plugin with a QT interface that allows you to save and convert memory dumps
-into source code-ready data declarations for several programming languages ​​and assembly syntaxes.
+into source code-ready data declarations for several programming languages and assembly syntaxes.
 
 The plugin can work with dump data taken directly from common x64dbg views such as **Disassembly**, **Memory Map**, and **Dump**.  
 The conversion dialog is also **resizable**, allowing users to adjust the window size according to their workflow and screen space.
