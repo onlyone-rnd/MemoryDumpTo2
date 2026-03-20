@@ -136,6 +136,12 @@ Recommended release assets:
 ### Requirements
 
 - Visual Studio 2022
-- Qt 5.12.12
+- MSVC v143 toolset
+- Qt 5.12.12 for MSVC 2022
 - x64dbg plugin SDK
 - Windows SDK
+
+### Notes
+
+- Legacy x64dbg builds based on older Qt/MSVC toolchains are not supported.
+- The plugin is built and tested with Visual Studio 2022 and Qt 5.12.12 only.
