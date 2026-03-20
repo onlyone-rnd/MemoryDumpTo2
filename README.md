@@ -135,7 +135,7 @@ Recommended release assets:
 
 ### Requirements
 
-- Visual Studio
-- Qt
+- Visual Studio 2022
+- Qt 5.12.12
 - x64dbg plugin SDK
 - Windows SDK
